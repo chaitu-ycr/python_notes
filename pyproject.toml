@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "python_notes"
+version = "0.0.1"
+description = "my python learning notes"
+authors = ["chaitu-ycr <chaitu.ycr@gmail.com>"]
+license = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/chaitu-ycr/python_notes.git"
+repository = "https://github.com/chaitu-ycr/python_notes.git"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Software Development :: Embedded Systems"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+dash = "^2.16.1"
+pandas = "^2.2.1"
+ipykernel = "^6.29.3"
+pyinstaller = "^6.5.0"
+opencv-python = "^4.9.0.80"
+pillow = "^10.2.0"
+python-vlc = "^3.0.20123"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
