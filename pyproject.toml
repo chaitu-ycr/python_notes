@@ -23,6 +23,9 @@ pyinstaller = "^6.5.0"
 opencv-python = "^4.9.0.80"
 pillow = "^10.2.0"
 python-vlc = "^3.0.20123"
+cantools = "^39.4.5"
+plotly = "^5.22.0"
+nbformat = "^5.10.4"
 
 [build-system]
 requires = ["poetry-core"]
