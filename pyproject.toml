@@ -26,6 +26,7 @@ python-vlc = "^3.0.20123"
 cantools = "^39.4.5"
 plotly = "^5.22.0"
 nbformat = "^5.10.4"
+pyside6 = "^6.7.1"
 
 [build-system]
 requires = ["poetry-core"]
