@@ -163,4 +163,4 @@ cython_debug/
 .vscode/
 
 # repo specific ignores
-notebooks/_output/*
+_output/
