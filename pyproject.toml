@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "python_notes"
+version = "0.0.1"
+description = "my python learning notes"
+authors = ["vaagupally <vaagupally@gmail.com>"]
+license = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/vaagupally/python_notes.git"
+repository = "https://github.com/vaagupally/python_notes.git"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Software Development :: Embedded Systems"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+dash-daq = "^0.5.0"
+ipykernel = "^6.29.4"
+cantools = "^39.4.5"
+plotly = "^5.22.0"
+customtkinter = "^5.2.2"
+pandas = "^2.2.2"
+opencv-python = "^4.10.0.84"
+pillow = "^10.3.0"
+pyinstaller = "^6.8.0"
+pytest-html = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
