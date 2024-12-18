@@ -2,11 +2,11 @@
 name = "python_notes"
 version = "0.0.1"
 description = "my python learning notes"
-authors = ["vaagupally <vaagupally@gmail.com>"]
+authors = ["chaitu-ycr <chaitu.ycr@gmail.com>"]
 license = "LICENSE"
 readme = "README.md"
-homepage = "https://github.com/vaagupally/python_notes.git"
-repository = "https://github.com/vaagupally/python_notes.git"
+homepage = "https://github.com/chaitu-ycr/python_notes.git"
+repository = "https://github.com/chaitu-ycr/python_notes.git"
 classifiers = [
     "Programming Language :: Python :: 3.9",
     "License :: OSI Approved :: MIT License",
