@@ -1,0 +1,43 @@
+site_name: python_notes
+site_url: https://chaitu-ycr.github.io/python_notes/
+site_description: my python learning notes
+site_author: chaitu-ycr
+
+repo_name: chaitu-ycr/python_notes
+repo_url: https://github.com/chaitu-ycr/python_notes
+edit_uri: blob/main/docs/
+
+theme:
+  name: readthedocs
+  features:
+    - toc.integrate
+
+nav:
+  - index.md
+  - python_basics/000_introduction.ipynb
+  - python_basics/001_if_elif_else.ipynb
+  - python_basics/002_match_case.ipynb
+  - python_basics/003_loops.ipynb
+  - python_basics/004_string.ipynb
+  - python_basics/005_list.ipynb
+  - python_basics/006_tuple.ipynb
+  - python_basics/007_set.ipynb
+  - python_basics/008_dictionary.ipynb
+  - python_basics/009_array.ipynb
+  - python_basics/010_functions.ipynb
+  - python_basics/011_oop.ipynb
+  - python_basics/012_error_exception_handling.ipynb
+  - python_basics/013_iterator.ipynb
+  - python_basics/014_generator.ipynb
+  - python_basics/015_decorator.ipynb
+  - python_basics/016_documentation.ipynb
+  - python_usecases/python_examples.ipynb
+  - python_usecases/pandas.ipynb
+  - python_usecases/cantools.ipynb
+  
+
+plugins:
+  - mkdocs-jupyter:
+      include_requirejs: true
+  - include-markdown:
+      recursive: true
