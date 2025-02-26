@@ -7,11 +7,6 @@ repo_name: chaitu-ycr/python_notes
 repo_url: https://github.com/chaitu-ycr/python_notes
 edit_uri: blob/main/docs/
 
-theme:
-  name: readthedocs
-  features:
-    - toc.integrate
-
 nav:
   - index.md
   - python_basics/000_introduction.ipynb
@@ -41,3 +36,10 @@ plugins:
       include_requirejs: true
   - include-markdown:
       recursive: true
+  - search
+
+theme:
+  name: readthedocs
+  features:
+    - toc.integrate
+    - search
